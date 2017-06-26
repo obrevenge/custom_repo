@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm custom_repo.*
+
 repo-add custom_repo.db.tar.gz *.pkg.tar.xz
 sleep 2
 rm custom_repo.db
